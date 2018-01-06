@@ -1,0 +1,32 @@
+/ Navigation
+%nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+  .container
+    %a.navbar-brand{:href => "#"} RubyGems
+    %button.navbar-toggler{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
+      %span.navbar-toggler-icon
+    #navbarResponsive.collapse.navbar-collapse
+      %ul.navbar-nav.ml-auto
+        %li.nav-item.active
+          %a.nav-link{:href => "#"}
+            Ajax Datatables Rails
+            %span.sr-only (current)
+
+/ Page Content
+.container
+  .row
+    .col-lg-4.text-center
+      %h1.mt-5 Demo
+    .col-lg-8
+      %br
+      %p.lead 
+        A simple listing using Ajax Datatables Rails.
+        %br
+        %a{href: @github_link}=@github_link
+      %ul.list-unstyled
+        %li Version: v0.4.0
+        %li Last Updated: 6th Jan 2018
+  .row
+    .col-lg-12
+      .card
+        .card-block{style: "padding:20px"}
+          = render :partial => "users"

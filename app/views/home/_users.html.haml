@@ -1,0 +1,28 @@
+%table.table#users-table{ "data-source": root_path(format: :json) }
+  %thead
+    %tr
+      %th Name
+      %th Age
+      %th Email
+      %th Company
+      %th Job
+  %tbody
+:javascript
+  jQuery(document).ready(function() {
+    $('#users-table').dataTable({
+      "processing": true,
+      "serverSide": true,
+      "ajax": $('#users-table').data('source'),
+      "pagingType": "full_numbers",
+      "columns": [
+        {"data": "name"},
+        {"data": "age"},
+        {"data": "email"},
+        {"data": "company"},
+        {"data": "job"}
+      ]
+      // pagingType is optional, if you want full pagination controls.
+      // Check dataTables documentation to learn more about
+      // available options.
+    });
+  });
