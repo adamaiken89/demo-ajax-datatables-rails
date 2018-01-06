@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Demo is showing the use of Ajax Datatables Rails.
+It is accompanied with the article I wrote in [Medum][MED] introducing the use of RubyGems.
 
-Things you may want to cover:
+The live demo is [here][DEMO].
 
-* Ruby version
+[MED]: <https://medium.com/實用的rubygems/ajax-datatables-rails-功能齊全的資料列表-98c96e9a250a>
+[DEMO]: <https://demo-ajax-datatables-rails.herokuapp.com>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

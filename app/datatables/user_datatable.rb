@@ -1,4 +1,4 @@
-class UserDatatable < AjaxDatatablesRails::Base
+class UserDatatable < AjaxDatatablesRails::ActiveRecord
 
   def view_columns
     # Declare strings in this format: ModelName.column_name
