@@ -137,7 +137,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.2)
       mini_portile2 (~> 2.4.0)
-    pg (0.21.0)
+    pg (1.1.4)
     popper_js (1.14.5)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -256,7 +256,7 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   lograge
-  pg (~> 0.18)
+  pg (~> 1.1)
   pry
   puma (~> 3.7)
   rails (~> 5.2)
